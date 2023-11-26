@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&Manrope:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+div,
+img,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* :root {
+
+
+} */
+
+/* ================================
+        Navbar part start
+=================================== */
+.navbar {
+  background-color: rgb(112 0 83);
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+  color: rgb(46, 114, 0);
+}
+
+
+
+/* ====================================
+          Navbar part End
+  ===================================== */
+
+/* ====================================
+            Hero part start
+======================================= */
+
+#hero-part .left-part h3 {
+  color: black;
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#hero-part .left-part span {
+  background: #121FCF;
+  background-clip: text;
+  background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+#hero-part .avatar img {
+
+  background: transparent;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 0px 0px 40px 0px rgba(74, 5, 145, 0.75);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(74, 5, 145, 0.75);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(74, 5, 145, 0.75);
+}
+
+
+/* ====================================
+          Hero part End
+======================================= */
+
+
+/* ====================================
+          LearnStack-part Start
+======================================= */
+#learnstack-part {
+  background: #e0e8ff
+}
+
+#learnstack-part .learn-content h2 {
+  font-size: 40px;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+}
+
+#learnstack-part .learn-content p {
+  font-size: 24px;
+  color: rgb(0 0 0);
+  font-family: 'Poppins', sans-serif;
+  opacity: 0.8;
+}
+
+/* ====================================
+          LearnStack-part End
+======================================= */
+
+
+
+/* =================================
+        Tech part Start
+================================= */
+#tech-part .tech-title span {
+  border-bottom: 3px solid rgb(44, 109, 131);
+  padding-bottom: 10px;
+}
+
+#tech-part .firstpart .progress-bar span,
+#tech-part .secondpart .progress-bar span,
+#tech-part .thirdpart .progress-bar span {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#tech-part .firstpart p,
+#tech-part .secondpart p,
+#tech-part .thirdpart p {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* =================================
+        Tech part End
+================================= */
+
+/* =================================
+        Myprojects part Start
+================================= */
+#myprojects-part {
+  font-family: 'Poppins', sans-serif;
+}
+
+#myprojects-part span {
+  border-bottom: 3px solid rgb(32, 32, 32);
+}
+
+#myprojects-part .card:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* =================================
+        Myprojects part End
+================================= */
+
+/* =================================
+        Contact part start
+================================= */
+#contact-part {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* =================================
+        Contact part End
+================================= */
+
+/* =================================
+        About part Start
+================================= */
+
+#about-part h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+#about-part img {
+  border: 2px solid blue;
+}
+
+#about-part .about-img {
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(95, 0, 139), rgb(50, 160, 204)) 1;
+}
+
+#about-part .about-details blockquote {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+
+}
+
+/* =================================
+        About part End
+================================= */
+
+/* =================================
+        Footer part Start
+================================= */
+
+#footer-part {
+  background-color: #3f4443;
+}
+
+#footer-part .footer-content p {
+  color: white;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* =================================
+        Footer part End
+================================= */
